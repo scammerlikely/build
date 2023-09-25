@@ -20,11 +20,11 @@ button {
 	--font-display: var(--font-primary) !important;
 	/* Dark Matter Variables */
 	--avatar-size: 32px;
-  --background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1024px-HD_transparent_picture.png');
+  --background-image: url('https://raw.githubusercontent.com/scammerlikely/build/main/base.css');
   --home-image: url('https://preview.redd.it/wallpapers-re-upload-v0-6la483l4tq4b1.jpg?width=640&crop=smart&auto=webp&s=9c2c1c57f18e7544061de7271265ef1ec9f542b1');
-	--background-solid: #161921;
-	--background-solid-dark: #101218;
-	--background-solid-darker: #0c0e12;
+	--background-solid: #000000;
+	--background-solid-dark: #000000;
+	--background-solid-darker: #000000;
 	--accent: 37, 172, 232;
 	--accent-alt: 29, 101, 134;
 	--md-black: 0, 0, 0;
@@ -50,7 +50,7 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	--background-accent: var(--background-solid);
 	--background-message-hover: rgba(var(--md-black), 0.4);
 	--channeltextarea-background: transparent;
-	--activity-card-background: rgba(var(--dm-white), 0.05);
+	--activity-card-background: rgba(var(--dm-purple), 0.05);
 	--deprecated-store-bg: transparent;
 	--background-modifier-hover: rgba(var(--md-black), 0.3);
 	--background-modifier-active: rgba(var(--md-black), 0.3);
@@ -58,15 +58,15 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	--elevation-low: inset 0 -1px 0 0 rgba(var(--md-black), 0.3);
 	--channels-default: rgba(var(--dm-white), 0.3);
 	--deprecated-quickswitcher-input-background: var(--background-solid);
-	--header-primary: rgba(var(--dm-white), 1);
-	--header-secondary: rgba(var(--dm-white), 0.6);
+	--header-primary: rgba(var(--dm-purple), 1);
+	--header-secondary: rgba(var(--dm-purple), 0.6);
 	--text-normal: rgba(var(--dm-white), 0.6);
 	--text-muted: #8a8e94;
-	--interactive-muted: rgba(var(--dm-white), 0.15);
-	--interactive-normal: rgba(var(--dm-white), 0.5);
-	--interactive-hover: rgba(var(--dm-white), 0.75);
-	--interactive-active: rgba(var(--dm-white), 1);
-	--deprecated-card-bg: rgba(var(--dm-white), 0.05);
+	--interactive-muted: rgba(var(--dm-purple), 0.15);
+	--interactive-normal: rgba(var(--dm-purple), 0.5);
+	--interactive-hover: rgba(var(--dm-purple), 0.75);
+	--interactive-active: rgba(var(--dm-purple), 1);
+	--deprecated-card-bg: rgba(var(--dm-purple), 0.05);
 	--text-link: rgba(var(--accent), 1);
 	--focus-primary: rgba(var(--accent), 1);
     --modal-background: var(--background-solid);
